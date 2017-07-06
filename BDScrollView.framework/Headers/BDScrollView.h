@@ -6,6 +6,7 @@
 #import <UIKit/UIKit.h>
 #import "BDHeaderView.h"
 #import "BDSegmentView.h"
+#import "BDCollectionView.h"
 
 @protocol BDScrollViewDataSource;
 @protocol BDScrollViewDelegate;
