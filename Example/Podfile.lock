@@ -1,5 +1,5 @@
 PODS:
-  - BDScrollView (0.1.6):
+  - BDScrollView (0.1.7):
     - MJRefresh
   - MJRefresh (3.1.12)
 
@@ -7,7 +7,7 @@ DEPENDENCIES:
   - BDScrollView
 
 SPEC CHECKSUMS:
-  BDScrollView: b9799fe72853718b5d59eeef16a713e246be8b5e
+  BDScrollView: 16fb2ebca426866c7d3f0690d5992d0e0d651ae6
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
 
 PODFILE CHECKSUM: d8c87db40c2d8c911646a3c1f977921129fb40de
