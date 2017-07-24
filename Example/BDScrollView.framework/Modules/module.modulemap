@@ -1,0 +1,6 @@
+framework module BDScrollView {
+  umbrella header "BDScrollView.h"
+
+  export *
+  module * { export * }
+}

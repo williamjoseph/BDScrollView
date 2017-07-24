@@ -16,6 +16,7 @@
 		EA1DB7C61F0B83B10048AA5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA1DB7C41F0B83B10048AA5D /* LaunchScreen.storyboard */; };
 		EA1DB8C51F0CDF960048AA5D /* CustomTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1DB8C41F0CDF960048AA5D /* CustomTableView.m */; };
 		EA1DB8CA1F0CE2260048AA5D /* CustomCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1DB8C91F0CE2260048AA5D /* CustomCollectionView.m */; };
+		EA840A431F258E1A0021372E /* BDScrollView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA840A421F258E1A0021372E /* BDScrollView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		EA1DB8C41F0CDF960048AA5D /* CustomTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableView.m; sourceTree = "<group>"; };
 		EA1DB8C81F0CE2260048AA5D /* CustomCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCollectionView.h; sourceTree = "<group>"; };
 		EA1DB8C91F0CE2260048AA5D /* CustomCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCollectionView.m; sourceTree = "<group>"; };
+		EA840A421F258E1A0021372E /* BDScrollView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BDScrollView.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA840A431F258E1A0021372E /* BDScrollView.framework in Frameworks */,
 				E6AC62787BA35EC3FA54F40D /* libPods-BDScrollViewExample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -70,6 +73,7 @@
 		EA1DB7AA1F0B83B10048AA5D = {
 			isa = PBXGroup;
 			children = (
+				EA840A421F258E1A0021372E /* BDScrollView.framework */,
 				EA1DB7B51F0B83B10048AA5D /* BDScrollViewExample */,
 				EA1DB7B41F0B83B10048AA5D /* Products */,
 				2955D12C93F95E70F23CF616 /* Pods */,
@@ -360,6 +364,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = GAXMRG9GCF;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/**",
+				);
 				INFOPLIST_FILE = BDScrollViewExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.it4pl.BDScrollViewExample;
@@ -373,6 +381,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = GAXMRG9GCF;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/**",
+				);
 				INFOPLIST_FILE = BDScrollViewExample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.it4pl.BDScrollViewExample;
