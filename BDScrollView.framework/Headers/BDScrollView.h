@@ -27,6 +27,7 @@
 @property (nonatomic, assign) BOOL shouldAdjustContentSize;
 @property (nonatomic, assign) BOOL headerBarScrollDisabled;
 @property (nonatomic, assign) BOOL scrollEnabled;
+@property (nonatomic) NSInteger scrollSpeed;
 
 - (void)reloadData;
 - (void)scrollToItemAtIndex:(NSInteger)index animated:(BOOL)animated;

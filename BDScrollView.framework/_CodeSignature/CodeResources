@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/BDScrollView.h</key>
 		<data>
-		J5aq1GFunQOyobBRH0FjZ1bB1A0=
+		gcEovaQ0IUv3f9leI1rFPAiltyg=
 		</data>
 		<key>Headers/BDSegmentScrollView.h</key>
 		<data>
@@ -88,11 +88,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			J5aq1GFunQOyobBRH0FjZ1bB1A0=
+			gcEovaQ0IUv3f9leI1rFPAiltyg=
 			</data>
 			<key>hash2</key>
 			<data>
-			r1C8AB+gzAdns0faMzYZ58hVi2axCROUmty8J8ZC75Y=
+			I6mQag6EIuJqqQNvR+uEyDLummlH7wXTmrbIhzUK2mg=
 			</data>
 		</dict>
 		<key>Headers/BDSegmentScrollView.h</key>
@@ -197,6 +197,11 @@
 			<key>weight</key>
 			<real>1100</real>
 		</dict>
+		<key>^Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
+		</dict>
 		<key>^version.plist$</key>
 		<true/>
 	</dict>
@@ -241,6 +246,11 @@
 			<true/>
 			<key>weight</key>
 			<real>1100</real>
+		</dict>
+		<key>^Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
 		</dict>
 		<key>^Info\.plist$</key>
 		<dict>
